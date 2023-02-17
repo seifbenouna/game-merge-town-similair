@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--start font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--end font google -->
+    <!--start css -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>merge town simillair project</title>
+    <!--end css -->
+    <!-- start js -->
+    <script src="script/main.js" type="module"></script>
+    <script src="script/method.js" type="module"></script>
+    <script src="script/data.js" type="module"></script>
+    <!-- end js -->
+  </head>
+  <body>
+    <div class="speed-options">
+      <label><input type="radio" name="speed" value="1" checked /> 1x</label>
+      <label><input type="radio" name="speed" value="2" /> 2x</label>
+      <label><input type="radio" name="speed" value="4" /> 4x</label>
+      <label><input type="radio" name="speed" value="10" /> 10x</label>
+    </div>
+    <div class="container">
+      <div class="score">
+        <div class="progress-bar total">
+          <i class="fas fa-coins"></i>
+          <div>
+            <span class="value"> 0 </span>
+            <span class="unit">m</span>
+          </div>
+        </div>
+        <div class="progress-bar rate">
+          <i class="fas fa-coins"></i>
+          <div>
+            <span class="value">0</span>
+            <span class="unit">k</span>
+            <span>/ min</span>
+          </div>
+        </div>
+        <div class="progress-bar levels">
+          <i class="fa-solid fa-star"> <span>1</span></i>
+          <div class="hider">
+            <span class="value">
+              <span>0</span>
+              /
+              <span>1000</span>
+            </span>
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="land">
+        <div class="town-border">
+          <div class="town">
+            <img class="house1" src="./imgs/house1.png" earn="100" />
+          </div>
+        </div>
+        <div class="town-border">
+          <div class="town">
+            <img class="house1" src="./imgs/house1.png" earn="100" />
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <i class="fas fa-box-open box-upcoming">
+          <span>10</span>
+        </i>
+        <i class="fas fa-store-alt store"></i>
+      </div>
+    </div>
+    <div class="all">
+      <div class="buy-store">
+        <div class="top">
+          <i class="fas fa-gift"></i>
+          <h2>GIFT BOX!</h2>
+          <button>10:00</button>
+        </div>
+        <div class="items">
+          <div class="item unknown">
+            <div class="house">
+              <img class="" src="/imgs/box_unknown.png" alt="" />
+              <span>????</span>
+            </div>
+            <div class="price">
+              <button>
+                <div></div>
+                <div><i class="fas fa-lock lock"></i></div>
+              </button>
+            </div>
+          </div>
+          <div class="item unknown">
+            <div class="house">
+              <img class="" src="/imgs/box_unknown.png" alt="" />
+              <span>????</span>
+            </div>
+            <div class="price">
+              <button>
+                <div></div>
+                <div><i class="fas fa-lock lock"></i></div>
+              </button>
+            </div>
+          </div>
+          <div class="item unknown">
+            <div class="house">
+              <img class="" src="/imgs/box_unknown.png" alt="" />
+              <span>????</span>
+            </div>
+            <div class="price">
+              <button>
+                <div></div>
+                <div><i class="fas fa-lock lock"></i></div>
+              </button>
+            </div>
+          </div>
+          <div class="item unknown">
+            <div class="house">
+              <img class="" src="/imgs/box_unknown.png" alt="" />
+              <span>????</span>
+            </div>
+            <div class="price">
+              <button>
+                <div></div>
+                <div><i class="fas fa-lock lock"></i></div>
+              </button>
+            </div>
+          </div>
+          <div class="item unknown">
+            <div class="house">
+              <img class="" src="/imgs/box_unknown.png" alt="" />
+              <span>????</span>
+            </div>
+            <div class="price">
+              <button>
+                <div></div>
+                <div><i class="fas fa-lock lock"></i></div>
+              </button>
+            </div>
+          </div>
+          <div class="item unknown">
+            <div class="house">
+              <img class="" src="/imgs/box_unknown.png" alt="" />
+              <span>????</span>
+            </div>
+            <div class="price">
+              <button>
+                <div></div>
+                <div><i class="fas fa-lock lock"></i></div>
+              </button>
+            </div>
+          </div>
+          <div class="item unknown">
+            <div class="house">
+              <img class="" src="/imgs/box_unknown.png" alt="" />
+              <span>????</span>
+            </div>
+            <div class="price">
+              <button>
+                <div></div>
+                <div><i class="fas fa-lock lock"></i></div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <button class="close">close</button>
+      </div>
+    </div>
+    <div class="notification">
+      <span class="info"> this is test </span>
+    </div>
+  </body>
+</html>
