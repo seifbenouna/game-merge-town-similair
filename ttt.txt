@@ -1,4 +1,0 @@
-tttttttttttttttttttt
-sdfgsfg
-
-print('hello');
